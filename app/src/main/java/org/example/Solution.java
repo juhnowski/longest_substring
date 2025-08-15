@@ -27,7 +27,7 @@ class Solution {
 		
       HashSet<Character> chars = new HashSet<>();
 			
-      while(idx<endIndex) {
+      while(idx<=endIndex) {
         Character c = s.charAt(idx);
         if (!chars.contains(c)) {
           chars.add(c);
@@ -47,7 +47,7 @@ class Solution {
       ti = 0;
       bi++;
     }
-    System.out.println("res="+res);
+
 		return res;	
 	}
 }

@@ -61,6 +61,14 @@ class SolutionTest {
 
 	/*
 	# Test5
-	Если Output == 126 то дальше не парсим
+	Input: s = "au"
+  Output: 2
 	*/
+@org.junit.jupiter.api.Test
+  void test5() {
+    Solution s = new Solution();
+    int res = s.lengthOfLongestSubstring("au");
+    assertEquals(res,2);
+  }
+
 }
